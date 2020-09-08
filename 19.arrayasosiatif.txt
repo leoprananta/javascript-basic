@@ -1,0 +1,9 @@
+//var kegemaran = ['Berenang, Singkong Keju, Jus Alpukat'];
+
+var kegemaran = {
+    aktivitas: 'Berenang', 
+    makanan: 'Singkong Keju', 
+    minuman: 'Jus Alpukat'
+}
+console.log('Kuliner: ');
+console.log(kegemaran);

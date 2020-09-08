@@ -1,0 +1,16 @@
+var nama = ' Al Khawarizmi    ';
+console.log(nama + '<br/>');
+console.log('Sebelum menghapus karakter depan dan belakang, panjang string var nama: ' + nama.length + '<br/>');
+nama = nama.trim();
+console.log(nama + '<br/>');
+console.log('Setelah menghapus karakter depan dan belakang, panjang string var nama: ' + nama.length + '<br/>');
+
+
+
+
+var herbivora = new Array('    kambing   ', '   sapi    ', '   kuda   ');
+herbivora.forEach(function(nama,index){
+    // gunakan method trim() atau yang lain dibawah ini
+    nama = nama.trim();
+    console.log(index + '. ' + nama);
+})

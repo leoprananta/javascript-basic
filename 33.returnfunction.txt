@@ -1,0 +1,50 @@
+var tanggal = Date();
+console.log(tanggal);
+
+
+function luasSegitiga(alas, tinggi){
+    luas = alas * tinggi / 2;
+    return luas;
+}
+console.log(luasSegitiga(5,4));
+console.log(hasil);
+
+
+
+
+// fungsi untuk menghitung luas lingkaran
+function luasLingkaran(length){
+    return 1/4 * 3.14 * length * length;
+} 
+ 
+// menghitung luas berdasarkan diameter
+var diameter = 14;
+var luas = luasLingkaran(diameter);
+console.log('luas berdasarkan diameter: ' + luas +'<br/>');
+ 
+// menghitung luas berdasarkan jari-jari
+var radius = 7;
+var luas = luasLingkaran(radius, false);
+console.log('luas berdasarkan radius: ' + luas +'<br/>');
+
+
+
+
+// fungsi untuk menghitung luas lingkaran
+function luasLingkaran(length, use_diameter=true){
+    luas = 1/4 * 3.14 * length * length;
+    if (use_diameter===false){
+        luas = radius/radius * 3.14 * length * length;
+    }
+    return luas;
+} 
+ 
+// menghitung luas berdasarkan diameter
+var diameter = 14;
+var luas = luasLingkaran(diameter);
+console.log('luas berdasarkan diameter: ' + luas +'<br/>');
+ 
+// menghitung luas berdasarkan jari-jari
+var radius = 7;
+var luas = luasLingkaran(radius, true);
+console.log('luas berdasarkan radius: ' + luas +'<br/>');

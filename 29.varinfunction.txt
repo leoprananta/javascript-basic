@@ -1,0 +1,28 @@
+function kuadrat(){
+    x *= x;
+}
+x = 5;
+console.log('Sebelum dikuadratkan: ' + x + '<br/>');
+kuadrat();
+console.log('Setelah dikuadratkan: ' + x + '<br/>');
+
+
+
+
+function kuadrat(){
+    x *= x;
+    console.log('Setelah dikuadratkan: ' + x + '<br/>');
+}
+x = 5;
+console.log('Sebelum dikuadratkan: ' + x + '<br/>');
+kuadrat();
+
+
+
+
+function kuadrat(x){
+    x *= x;
+    console.log('Setelah dikuadratkan: ' + x + '<br/>');
+}
+console.log('Sebelum dikuadratkan: ' + 5 + '<br/>');
+kuadrat(5);

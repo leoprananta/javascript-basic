@@ -1,0 +1,9 @@
+var nama = 'Yihui';
+var umur = 14;
+var sudah_menikah = false;
+var nama_saudara = ['Satu','Dua'];
+var hobi = {'bola':'voli','bulu':'tangkis'};
+var utang = null;
+var rumah;
+
+console.log(typeof umur);

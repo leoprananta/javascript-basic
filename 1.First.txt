@@ -1,0 +1,4 @@
+console.log("Hello world");
+
+var nama = 'Leonanta';
+console.log(nama);

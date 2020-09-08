@@ -1,0 +1,7 @@
+var nama = 'Sukri';
+var pesan = 'Selamat datang, ' + nama + '.';
+if(nama == 'Mansur')
+{
+    pesan = 'Hi, suatu kehormatan bisa bertemu dengan Anda, ' + nama;
+}
+console.log(pesan);

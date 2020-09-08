@@ -1,0 +1,14 @@
+var x = 10;
+++x;
+console.log(x);
+
+
+
+
+++x		pre-increment		tambah nilai x sebanyak 1, kemudian kembalikan nilai x
+
+x++		post-increment		kembalikan nilai x, lalu tambah nilai x sebanyak 1
+
+--x		pre-decrement		kurangi nilai x sebanyak 1, kemudian kembalikan nilai x
+
+x--		post-decrement		kembalikan nilai x, lalu kurangi nilai x sebanyak 1

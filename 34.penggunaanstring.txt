@@ -1,0 +1,18 @@
+var salam = "Selamat Pagi";
+var salam = 'Selamat Malam';
+
+var panjang_salam = salam.length;
+
+var whoami = "Kami adalah \"Gerilyawan"\ dari planet Namex.";
+
+
+
+
+var nama = 'Jenderal Soedirman';
+console.log('Panjang string "' + nama + '" adalah ' + nama.length + ' karakter <br/>');
+ 
+var pasukan = "Pasukan berkata: \"Kami adalah Gerilyawan\". <br/>";
+console.log(pasukan);
+
+
+//perhatikan penggunaan " dan '

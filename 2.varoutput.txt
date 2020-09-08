@@ -1,0 +1,2 @@
+var nama = "Yihuu"
+console.log(nama);

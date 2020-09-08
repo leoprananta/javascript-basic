@@ -1,0 +1,21 @@
+var x = true;
+var y = true;
+
+console.log('x          : ' + x + '<br>');
+console.log('y          : ' + y + '<br>');
+console.log('!x         : ' + !x + '<br>');
+console.log('!y         : ' + !y + '<br>');
+console.log('x and y    : ' + (x && y) + '<br/>');
+console.log('x or y     : ' + (x || y) + '<br/>');
+console.log('x xor y    : ' + Boolean(x ^ y) + '<br/>');
+
+
+
+
+and		&&		And 		x and y			x && y		TRUE hanya bila x and y keduanya bernilai TRUE
+
+or 		||		Or 			x or y			x || y		TRUE bila salah satu atau keduanya dari x atau y bernilai TRUE
+
+xor		Xor 	x xor y									TRUE bila hanya salah satu saja (tidak keduanya) dari x atau y bernilai TRUE
+
+!		Not		!x 										TRUE bila x bernilai FALSE

@@ -1,0 +1,6 @@
+var url = 'codepolitan.com/interactive-coding/javascript/output';
+var segmen = url.split('/');
+console.log(segmen + '</br>');
+
+var new_url = segmen.join("/");
+console.log(new_url);

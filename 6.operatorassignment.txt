@@ -1,0 +1,18 @@
+var x = 10;
+var y = 5;
+console.log('Nilai x sebelum assignment: ' + x + '<br/>');
+x+=y;
+console.log('Nilai x setelah assignment: ' + x + '<br/>');
+
+
+
+
+x += y		x = x + y		x diisi dengan nilai dari x sebelumnya ditambah nilai y
+
+x -= y		x = x - y		x diisi dengan nilai dari x sebelumnya dikurangi nilai y
+
+x *= y		x = x * y		x diisi dengan nilai dari x sebelumnya dikali nilai y
+
+x /= y		x = x / y		x diisi dengan nilai dari x sebelumnya dibagi nilai y
+
+x %= y		x = x % y		x diisi dengan sisa nilai dari x sebelumnya dibagi nilai y

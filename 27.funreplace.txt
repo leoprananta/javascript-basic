@@ -1,0 +1,3 @@
+var kalimat = 'Saya suka sate ayam';
+var output = kalimat.replace('ayam','kambing');
+console.log(output);

@@ -1,0 +1,9 @@
+function profil(nama, kota, tahun)
+{
+    console.log('Nama saya ' + nama + '<br/>');
+    console.log('Saya berasal dari kota ' + kota + '<br/>');
+    console.log('Saya lahir pada tahun ' + tahun + '<br/>');
+}
+var nama = 'James';
+var asal = 'Medan';
+profil(nama, asal, 1999);

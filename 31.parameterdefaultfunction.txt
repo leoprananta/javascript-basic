@@ -1,0 +1,37 @@
+function cetakPesan(nama, bahasa='id')
+{
+    var pesan = 'Selamat datang, ' + nama;
+    if(bahasa == 'en')
+    {
+        pesan = 'Welcome, ' + nama;
+    }
+    console.log(pesan);
+}
+var nama = 'Bambang';
+cetakPesan(nama);
+cetakPesan(nama,'en');
+cetakPesan(nama,'eaa');
+
+
+
+
+function cetakPesan(nama, bahasa='id')
+{
+    var pesan = 'Selamat datang, ' + nama;
+    switch (bahasa){
+        case 'id':
+            pesan = 'Selamat datang, ' + nama;
+        break;
+        case 'en':
+            pesan = 'Welcome, ' + nama;
+        break;
+        default:
+            pesan = 'Mohon maaf bahasa yang diminta belum terdaftar.';
+        break;
+    }
+    console.log(pesan);
+}
+var nama = 'Bambang';
+cetakPesan(nama);
+cetakPesan(nama,'en');
+cetakPesan(nama,'eaa');

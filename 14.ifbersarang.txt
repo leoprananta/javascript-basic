@@ -1,0 +1,22 @@
+var matematika = 63;
+var wawancara = 'A';
+var keterangan = 'Lolos tes, dengan predikat ';
+
+if(matematika > 60)
+{
+    if(wawancara == 'A')
+    {
+        keterangan += 'Memuaskan';
+        console.log(keterangan);
+    }
+    else if(wawancara == 'B')
+    {
+        keterangan += 'Cukup';
+        console.log(keterangan);
+    }
+    else
+    {
+        keterangan += 'Tidak lolos tes';
+        console.log(keterangan);
+    }
+}
